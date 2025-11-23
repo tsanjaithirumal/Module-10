@@ -22,7 +22,21 @@ To write a Python program to:
 7. Print the updated list.
 
 ## 🧪 Program: 
+```
+q = []
+n = int(input())
+for _ in range(n):
+    val = int(input())
+    q.append(val)
 
+q.pop(0)  
+q.pop(0)  
+
+q.sort(reverse=True)
+print(*q)
+```
 ### Output:
+<img width="487" height="535" alt="446244122-cf686b24-d64e-4bcb-a664-7315af08d0fb" src="https://github.com/user-attachments/assets/ae570728-f5c1-4198-b5b7-a8465060ae44" />
 
 ## Result:
+Thus, the program is verified successfully.
