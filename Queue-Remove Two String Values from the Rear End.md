@@ -21,8 +21,20 @@ To write a Python program to:
 6. Display the updated list.
 
 ##  Program:
-Add Code Here
+```
+q = []
+n = int(input())
+for _ in range(n):
+    s = input()
+    q.append(s)
 
+q.pop()  
+q.pop() 
+
+print(q)
+```
 ### Output:
+<img width="505" height="533" alt="446245032-28a4bb3d-cb2f-4333-bd0a-a23f70ce72c9" src="https://github.com/user-attachments/assets/98bb5c02-289e-40c9-8eb8-608bba7fcba0" />
 
 ## Result:
+Thus the output is verified
